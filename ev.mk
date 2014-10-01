@@ -7,7 +7,7 @@ $(call inherit-product, vendor/ev/config/gsm.mk)
 BOARD_HAVE_NFC := true
 
 
-# Inherit some common CM stuff.
+# Inherit some common phone stuff.
 $(call inherit-product, vendor/ev/config/common_full_phone.mk)
 
 #
@@ -22,7 +22,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=SGH-I727 TARGET_DEVICE=SGH-I727 BUI
 
 # Set up the product codename, build version & MOTD.
 PRODUCT_CODENAME := trainwreck
-PRODUCT_VERSION_DEVICE_SPECIFIC := p1
+PRODUCT_VERSION_DEVICE_SPECIFIC := p4
 
 PRODUCT_MOTD :="\n\n\n--------------------MESSAGE---------------------\nThank you for choosing Evervolv \nfor your Samsung Skyrocket\nPlease visit us at \#evervolv on irc.freenode.net\nFollow @preludedrew for the latest Evervolv updates\nGet the latest rom at XDA-Developers.com\n------------------------------------------------\n"
 
