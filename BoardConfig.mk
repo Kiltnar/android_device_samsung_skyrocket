@@ -35,3 +35,6 @@ TARGET_USERIMAGES_USE_EXT4 := true
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/skyrocket/bluetooth
+
+#TWRP config
+DEVICE_RESOLUTION := 480x800
